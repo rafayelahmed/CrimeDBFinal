@@ -17,5 +17,7 @@ BEGIN
 	SET NOCOUNT ON;
 
     select * from [dbo].[DIMCity]
+
+	select * from DimState
 END
 GO
