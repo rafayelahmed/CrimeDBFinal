@@ -19,5 +19,6 @@ BEGIN
     select * from [dbo].[DIMCity]
 
 	select * from DimState where StateID=1 and StateName is not null
-END
+	select * from DIMState where StateName ='haga'
+	end
 GO
