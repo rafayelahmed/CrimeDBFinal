@@ -18,6 +18,6 @@ BEGIN
 
     select * from [dbo].[DIMCity]
 
-	select * from DimState
+	select * from DimState where StateID=1 and StateName is not null
 END
 GO
