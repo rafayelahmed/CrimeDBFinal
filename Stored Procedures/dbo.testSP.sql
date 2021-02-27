@@ -21,5 +21,6 @@ BEGIN
 	select * from DimState where StateID=1 and StateName is not null
 	--not sure abot this
 	select * from DIMState where StateName ='haga'
+	--testing JIra
 	end
 GO
