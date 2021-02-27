@@ -23,5 +23,7 @@ BEGIN
 	select * from DIMState where StateName ='haga'
 	--testing JIra
 	-- jira in dev branch CD-8
+
+
 	end
 GO
