@@ -20,6 +20,6 @@ BEGIN
 
 	select * from DimState
 
-	--expecting this comment in ftr CD-9
+	--expecting this comment in branch CD-9
 END
 GO
