@@ -18,12 +18,8 @@ BEGIN
 
     select * from [dbo].[DIMCity]
 
-	select * from DimState where StateID=1 and StateName is not null
-	--not sure abot this
-	select * from DIMState where StateName ='haga'
-	--testing JIra
-	-- jira in dev branch CD-8
+	select * from DimState
 
-
-	end
+	--expecting this comment in ftr CD-9
+END
 GO
